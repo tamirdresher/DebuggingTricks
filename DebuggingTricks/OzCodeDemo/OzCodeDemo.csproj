@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{41EE8839-E161-4478-8F98-FB1C3B3E5A81}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OzCodeDemo</RootNamespace>
+    <AssemblyName>OzCodeDemo</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.8.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.ComponentModel.Composition.Registration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="01.Reveal\RevealDemo.cs" />
+    <Compile Include="04.ConditionalBreakpoints\ConditionalBreakpointsDemo.cs" />
+    <Compile Include="07.FilterCollections\FilterCollectionsDemo.cs" />
+    <Compile Include="09.MagicGlance\MagicGlanceDemo.cs" />
+    <Compile Include="10.Predict\Predict.cs" />
+    <Compile Include="11.CustomExpressions\CustomExpressionsDemo.cs" />
+    <Compile Include="12.Export\ExportDemo.cs" />
+    <Compile Include="13.LINQ\LinqDemo.cs" />
+    <Compile Include="DemoClasses\Events\LogBook.cs" />
+    <Compile Include="DemoClasses\Events\EventLoggedEventArgs.cs" />
+    <Compile Include="DemoClasses\Events\EventProcessor.cs" />
+    <Compile Include="DemoClasses\Events\EventType.cs" />
+    <Compile Include="DemoClasses\Events\LoggingEvent.cs" />
+    <Compile Include="DemoClasses\Events\LoggingEventFactory.cs" />
+    <Compile Include="DemoClasses\Events\SyncQueue.cs" />
+    <Compile Include="08.Trace\TraceDemo.cs" />
+    <Compile Include="DemoClasses\Extensions\Xml.cs" />
+    <Compile Include="DemoClasses\IoT\Data.cs" />
+    <Compile Include="DemoClasses\IoT\Sensor.cs" />
+    <Compile Include="DemoClasses\Orders\OrderProcessing.cs" />
+    <Compile Include="DemoClasses\Orders\BillingService.cs" />
+    <Compile Include="DemoClasses\Orders\OrderInfo.cs" />
+    <Compile Include="06.WhenSetBreakDemo\WhenSetBreakDemo.cs" />
+    <Compile Include="DemoClasses\EmailClient.cs" />
+    <Compile Include="05.ExceptionTrail\ExceptionTrailDemo.cs" />
+    <Compile Include="DemoClasses\Logger.cs" />
+    <Compile Include="DemoClasses\Orders\GroundShippingCalculator.cs" />
+    <Compile Include="DemoClasses\Orders\IShippingCalculator.cs" />
+    <Compile Include="DemoClasses\Orders\OrderRepository.cs" />
+    <Compile Include="DemoClasses\Orders\OvernightShippingCalculator.cs" />
+    <Compile Include="DemoClasses\Orders\PriorityShippingCalculator.cs" />
+    <Compile Include="DemoClasses\Orders\ShippingService.cs" />
+    <Compile Include="DemoClasses\Orders\Order.cs" />
+    <Compile Include="DemoClasses\Orders\ShippingMethod.cs" />
+    <Compile Include="DemoClasses\Customers\CustomerController.cs" />
+    <Compile Include="DemoClasses\Invoices\Invoice.cs" />
+    <Compile Include="DemoClasses\Invoices\InvoiceProcessingException.cs" />
+    <Compile Include="DemoClasses\Invoices\InvoiceSender.cs" />
+    <Compile Include="DemoClasses\Invoices\InvoiceService.cs" />
+    <Compile Include="03.ShowAllInstances\ShowAllInstancesDemo.cs" />
+    <Compile Include="DemoClasses\AnotherTestComponent.cs" />
+    <Compile Include="DemoClasses\ITestComponent.cs" />
+    <Compile Include="02.Search\SearchDemo.cs" />
+    <Compile Include="DemoClasses\Orders\IllegalOrderException.cs" />
+    <Compile Include="DemoClasses\Orders\OrderProcessingException.cs" />
+    <Compile Include="DemoClasses\Orders\TwoDayShippingCalculator.cs" />
+    <Compile Include="DemoClasses\PaymentValidation.cs" />
+    <Compile Include="DemoClasses\Person.cs" />
+    <Compile Include="DemoClasses\PhoneBook.cs" />
+    <Compile Include="DemoClasses\StackOverflow\Client.cs" />
+    <Compile Include="DemoClasses\StackOverflow\Item.cs" />
+    <Compile Include="DemoClasses\StackOverflow\Owner.cs" />
+    <Compile Include="DemoClasses\StackOverflow\QuestionsAnalyzer.cs" />
+    <Compile Include="DemoClasses\StackOverflow\Rootobject.cs" />
+    <Compile Include="DemoClasses\TestComponent.cs" />
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DemoClasses\Customers\Address.cs" />
+    <Compile Include="DemoClasses\Customers\Customer.cs" />
+    <Compile Include="DemoClasses\Customers\CustomerRepository.cs" />
+    <Compile Include="DemoName.cs" />
+    <Compile Include="IOzCodeDemo.cs" />
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="01.Reveal\README.md" />
+    <None Include="02.Search\README.md" />
+    <None Include="03.ShowAllInstances\README.md" />
+    <None Include="04.ConditionalBreakpoints\README.md" />
+    <None Include="05.ExceptionTrail\README.md" />
+    <None Include="06.WhenSetBreakDemo\README.md" />
+    <None Include="07.FilterCollections\README.md" />
+    <None Include="08.Trace\README.md" />
+    <None Include="09.MagicGlance\README.md" />
+    <None Include="10.Predict\README.md" />
+    <None Include="11.CustomExpressions\README.md" />
+    <EmbeddedResource Include="json\SO_Featured.json" />
+    <None Include="12.Export\README.md" />
+    <None Include="packages.config" />
+    <None Include="13.LINQ\README.md" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="03.ShowAllInstances\Resources\showQuickActions.PNG" />
+    <Resource Include="Resources\breakpoint_set.png" />
+    <Resource Include="Resources\compare.png" />
+    <Resource Include="Resources\custom.png" />
+    <Resource Include="Resources\debug.png" />
+    <Resource Include="Resources\exceptions-trail.png" />
+    <Resource Include="Resources\eye_scan.png" />
+    <Resource Include="Resources\filter.png" />
+    <Resource Include="Resources\foresee.png" />
+    <Resource Include="Resources\ozcode.ico" />
+    <Resource Include="Resources\quick-actions.png" />
+    <Resource Include="Resources\quick_attach.png" />
+    <Resource Include="Resources\reveal.png" />
+    <Resource Include="Resources\Search.png" />
+    <Resource Include="Resources\show-instances.png" />
+    <Resource Include="Resources\trace.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="03.ShowAllInstances\Resources\breakonexceptions.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="01.Reveal\Resources\customersFromParis.png" />
+    <Resource Include="01.Reveal\Resources\cutomersWithAddresses.png" />
+    <Resource Include="01.Reveal\Resources\DebuggerBreak.PNG" />
+    <Resource Include="01.Reveal\Resources\RevealButton.PNG" />
+    <Resource Include="01.Reveal\Resources\RevealCustomersAndAddresses.png" />
+    <Resource Include="01.Reveal\Resources\RevealFullName.png" />
+    <Resource Include="01.Reveal\Resources\WatchWindow1.png" />
+    <Resource Include="01.Reveal\Resources\WatchWindow2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="02.Search\Resources\breakonexceptions.png" />
+    <Resource Include="02.Search\Resources\exception.png" />
+    <Resource Include="02.Search\Resources\SearchButton.png" />
+    <Resource Include="02.Search\Resources\searchforitestcomponent.png" />
+    <Resource Include="02.Search\Resources\searchforitestcomponentdeeper.png" />
+    <Resource Include="02.Search\Resources\searchfortest.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="03.ShowAllInstances\Resources\ShowAllInstancesButton.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="03.ShowAllInstances\Resources\copyValue.png" />
+    <Resource Include="03.ShowAllInstances\Resources\customerIsNull.PNG" />
+    <Resource Include="03.ShowAllInstances\Resources\emailIsNullInCustomer.PNG" />
+    <Resource Include="03.ShowAllInstances\Resources\exceptionCaught.PNG" />
+    <Resource Include="03.ShowAllInstances\Resources\exceptionThrown.PNG" />
+    <Resource Include="03.ShowAllInstances\Resources\SearchForCustomer.PNG" />
+    <Resource Include="03.ShowAllInstances\Resources\viewWholeCustomer.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="05.ExceptionTrail\Resources\exceptionTrailButton.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="04.ConditionalBreakpoints\Resources\ConditionalBreakPoint1_1.PNG" />
+    <Resource Include="04.ConditionalBreakpoints\Resources\ConditionalBreakPoint1_2.PNG" />
+    <Resource Include="04.ConditionalBreakpoints\Resources\ConditionalBreakPoint1_3.PNG" />
+    <Resource Include="04.ConditionalBreakpoints\Resources\conditionalBreakPoint2_1.PNG" />
+    <Resource Include="04.ConditionalBreakpoints\Resources\ConditionalBreakpointsButton.PNG" />
+    <Resource Include="04.ConditionalBreakpoints\Resources\CustomActions.PNG" />
+    <Resource Include="04.ConditionalBreakpoints\Resources\problemFound.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="05.ExceptionTrail\Resources\breakOnException.PNG" />
+    <Resource Include="05.ExceptionTrail\Resources\exceptionDetails.PNG" />
+    <Resource Include="05.ExceptionTrail\Resources\gotoWhereExceptionWasThrown.PNG" />
+    <Resource Include="05.ExceptionTrail\Resources\searchException.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\tracepointWithBP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="06.WhenSetBreakDemo\Resources\breakWhenSetDialog.PNG" />
+    <Resource Include="06.WhenSetBreakDemo\Resources\breakWhenSetDialogFinal.PNG" />
+    <Resource Include="06.WhenSetBreakDemo\Resources\chooseWhenSet.PNG" />
+    <Resource Include="06.WhenSetBreakDemo\Resources\logging.PNG" />
+    <Resource Include="06.WhenSetBreakDemo\Resources\processOrder.PNG" />
+    <Resource Include="06.WhenSetBreakDemo\Resources\revealOnSet.PNG" />
+    <Resource Include="06.WhenSetBreakDemo\Resources\rootCause.PNG" />
+    <Resource Include="06.WhenSetBreakDemo\Resources\whenBreakSet.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="07.FilterCollections\Resources\ageLessThan62.PNG" />
+    <Resource Include="07.FilterCollections\Resources\ageMoreThan62.PNG" />
+    <Resource Include="07.FilterCollections\Resources\breakonexceptions.png" />
+    <Resource Include="07.FilterCollections\Resources\customersWithAge.PNG" />
+    <Resource Include="07.FilterCollections\Resources\editFilter.PNG" />
+    <Resource Include="07.FilterCollections\Resources\exception.PNG" />
+    <Resource Include="07.FilterCollections\Resources\filterCollectionsButton.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="08.Trace\Resources\" />
+    <Folder Include="09.MagicGlance\Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\magic-glance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="10.Predict\Resources\exceptionPrediction.PNG" />
+    <Resource Include="10.Predict\Resources\firstBreakpoint.PNG" />
+    <Resource Include="10.Predict\Resources\predictButton.PNG" />
+    <Resource Include="10.Predict\Resources\predictIfStatements.PNG" />
+    <Resource Include="10.Predict\Resources\secondBreakpoint.PNG" />
+    <Resource Include="10.Predict\Resources\secondBugFixed.PNG" />
+    <Resource Include="10.Predict\Resources\stopAtFirstBreakpoint.PNG" />
+    <Resource Include="10.Predict\Resources\stopAtFirstBreakpoint2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="11.CustomExpressions\Resources\addDaysTillBirthday.PNG" />
+    <Resource Include="11.CustomExpressions\Resources\customExpressionsButton.PNG" />
+    <Resource Include="11.CustomExpressions\Resources\customExpressionsReveal.PNG" />
+    <Resource Include="11.CustomExpressions\Resources\daysTillBirthday.PNG" />
+    <Resource Include="11.CustomExpressions\Resources\firstBreakpoint.PNG" />
+    <Resource Include="11.CustomExpressions\Resources\fullNameCE.PNG" />
+    <Resource Include="11.CustomExpressions\Resources\usingMagicWand.PNG" />
+    <Resource Include="11.CustomExpressions\Resources\wrongCustomer.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\lambda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="13.LINQ\Resources\beta-05.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\export.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

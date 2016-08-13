@@ -1,0 +1,5 @@
+C:\Users\Tamir\Source\Repos\DebuggingTricks\DebuggingTricks\Output\SomeClassLibrary.dll
+C:\Users\Tamir\Source\Repos\DebuggingTricks\DebuggingTricks\Output\SomeClassLibrary.pdb
+C:\Users\Tamir\Source\Repos\DebuggingTricks\DebuggingTricks\SomeClassLibrary\obj\Debug\SomeClassLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Tamir\Source\Repos\DebuggingTricks\DebuggingTricks\SomeClassLibrary\obj\Debug\SomeClassLibrary.dll
+C:\Users\Tamir\Source\Repos\DebuggingTricks\DebuggingTricks\SomeClassLibrary\obj\Debug\SomeClassLibrary.pdb

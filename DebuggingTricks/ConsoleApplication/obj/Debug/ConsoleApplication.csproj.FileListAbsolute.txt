@@ -1,0 +1,8 @@
+C:\Users\Tamir\Source\Repos\DebuggingTricks\DebuggingTricks\ConsoleApplication\bin\Debug\ConsoleApplication.exe.config
+C:\Users\Tamir\Source\Repos\DebuggingTricks\DebuggingTricks\ConsoleApplication\bin\Debug\ConsoleApplication.exe
+C:\Users\Tamir\Source\Repos\DebuggingTricks\DebuggingTricks\ConsoleApplication\bin\Debug\ConsoleApplication.pdb
+C:\Users\Tamir\Source\Repos\DebuggingTricks\DebuggingTricks\ConsoleApplication\obj\Debug\ConsoleApplication.csprojResolveAssemblyReference.cache
+C:\Users\Tamir\Source\Repos\DebuggingTricks\DebuggingTricks\ConsoleApplication\obj\Debug\ConsoleApplication.exe
+C:\Users\Tamir\Source\Repos\DebuggingTricks\DebuggingTricks\ConsoleApplication\obj\Debug\ConsoleApplication.pdb
+C:\Users\Tamir\Source\Repos\DebuggingTricks\DebuggingTricks\ConsoleApplication\bin\Debug\SomeClassLibrary.dll
+C:\Users\Tamir\Source\Repos\DebuggingTricks\DebuggingTricks\ConsoleApplication\bin\Debug\SomeClassLibrary.pdb

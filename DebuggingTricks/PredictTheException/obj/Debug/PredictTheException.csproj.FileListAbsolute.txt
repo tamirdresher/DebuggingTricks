@@ -1,0 +1,8 @@
+C:\Users\Tamir\Source\Repos\DebuggingTricks\DebuggingTricks\PredictTheException\bin\Debug\PredictTheException.exe.config
+C:\Users\Tamir\Source\Repos\DebuggingTricks\DebuggingTricks\PredictTheException\bin\Debug\PredictTheException.exe
+C:\Users\Tamir\Source\Repos\DebuggingTricks\DebuggingTricks\PredictTheException\bin\Debug\PredictTheException.pdb
+C:\Users\Tamir\Source\Repos\DebuggingTricks\DebuggingTricks\PredictTheException\bin\Debug\Common.dll
+C:\Users\Tamir\Source\Repos\DebuggingTricks\DebuggingTricks\PredictTheException\bin\Debug\Common.pdb
+C:\Users\Tamir\Source\Repos\DebuggingTricks\DebuggingTricks\PredictTheException\obj\Debug\PredictTheException.csprojResolveAssemblyReference.cache
+C:\Users\Tamir\Source\Repos\DebuggingTricks\DebuggingTricks\PredictTheException\obj\Debug\PredictTheException.exe
+C:\Users\Tamir\Source\Repos\DebuggingTricks\DebuggingTricks\PredictTheException\obj\Debug\PredictTheException.pdb

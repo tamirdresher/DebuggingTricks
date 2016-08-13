@@ -1,0 +1,703 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Projects>
+  <Project>
+    <Id>1</Id>
+    <Department>Public Relations</Department>
+    <Manager>62</Manager>
+    <Status>InProgress</Status>
+    <RemainingEffort>220</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>2</Id>
+    <Department>Research and Development</Department>
+    <Manager>24</Manager>
+    <Status>Late</Status>
+    <RemainingEffort>0</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>3</Id>
+    <Department>Accounting</Department>
+    <Manager>15</Manager>
+    <Status>NotStarted</Status>
+    <RemainingEffort>341</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>4</Id>
+    <Department>Accounting</Department>
+    <Manager>76</Manager>
+    <Status>InProgress</Status>
+    <RemainingEffort>254</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>5</Id>
+    <Department>Advertising</Department>
+    <Manager>81</Manager>
+    <Status>NotStarted</Status>
+    <RemainingEffort>55</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>6</Id>
+    <Department>Research and Development</Department>
+    <Manager>42</Manager>
+    <Status>Late</Status>
+    <RemainingEffort>105</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>7</Id>
+    <Department>Sales and Marketing</Department>
+    <Manager>56</Manager>
+    <Status>NotStarted</Status>
+    <RemainingEffort>155</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>8</Id>
+    <Department>Research and Development</Department>
+    <Manager>92</Manager>
+    <Status>Done</Status>
+    <RemainingEffort>0</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>9</Id>
+    <Department>Finances</Department>
+    <Manager>26</Manager>
+    <Status>InProgress</Status>
+    <RemainingEffort>298</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>10</Id>
+    <Department>Asset Management</Department>
+    <Manager>38</Manager>
+    <Status>InProgress</Status>
+    <RemainingEffort>0</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>11</Id>
+    <Department>Payroll</Department>
+    <Manager>4</Manager>
+    <Status>NotStarted</Status>
+    <RemainingEffort>70</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>12</Id>
+    <Department>Payroll</Department>
+    <Manager>97</Manager>
+    <Status>NotStarted</Status>
+    <RemainingEffort>180</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>13</Id>
+    <Department>Finances</Department>
+    <Manager>38</Manager>
+    <Status>NotStarted</Status>
+    <RemainingEffort>283</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>14</Id>
+    <Department>Advertising</Department>
+    <Manager>20</Manager>
+    <Status>Done</Status>
+    <RemainingEffort>0</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>15</Id>
+    <Department>Sales and Marketing</Department>
+    <Manager>43</Manager>
+    <Status>InProgress</Status>
+    <RemainingEffort>118</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>16</Id>
+    <Department>Sales and Marketing</Department>
+    <Manager>50</Manager>
+    <Status>InProgress</Status>
+    <RemainingEffort>102</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>17</Id>
+    <Department>Human Resources</Department>
+    <Manager>7</Manager>
+    <Status>Done5</Status>
+    <RemainingEffort>13</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>18</Id>
+    <Department>Sales and Marketing</Department>
+    <Manager>71</Manager>
+    <Status>Late</Status>
+    <RemainingEffort>62</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>19</Id>
+    <Department>Accounting</Department>
+    <Manager>96</Manager>
+    <Status>InProgress</Status>
+    <RemainingEffort>204</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>20</Id>
+    <Department>Quality Assurance</Department>
+    <Manager>41</Manager>
+    <Status>NotStarted</Status>
+    <RemainingEffort>61</RemainingEffort>
+  </Project>
+   <Project>
+    <Id>21</Id>
+    <Department>Sales and Marketing</Department>
+    <Manager>24</Manager>
+    <Status>Late</Status>
+    <RemainingEffort>323</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>22</Id>
+    <Department>Quality Assurance</Department>
+    <Manager>56</Manager>
+    <Status>NotStarted</Status>
+    <RemainingEffort>209</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>23</Id>
+    <Department>Quality Assurance</Department>
+    <Manager>34</Manager>
+    <Status>NotStarted</Status>
+    <RemainingEffort>312</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>24</Id>
+    <Department>Public Relations</Department>
+    <Manager>39</Manager>
+    <Status>Late</Status>
+    <RemainingEffort>87</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>25</Id>
+    <Department>Research and Development</Department>
+    <Manager>51</Manager>
+    <Status>Done</Status>
+    <RemainingEffort>0</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>26</Id>
+    <Department>Media Relations</Department>
+    <Manager>69</Manager>
+    <Status>Done</Status>
+    <RemainingEffort>0</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>27</Id>
+    <Department>Asset Management</Department>
+    <Manager>27</Manager>
+    <Status>Late</Status>
+    <RemainingEffort>314</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>28</Id>
+    <Department>Tech Support</Department>
+    <Manager>30</Manager>
+    <Status>Late</Status>
+    <RemainingEffort>218</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>29</Id>
+    <Department>Accounting</Department>
+    <Manager>10</Manager>
+    <Status>InProgress</Status>
+    <RemainingEffort>47</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>30</Id>
+    <Department>Finances</Department>
+    <Manager>40</Manager>
+    <Status>Late</Status>
+    <RemainingEffort>118</RemainingEffort>
+  </Project>
+ <!-- <Project>
+    <Id>31</Id>
+    <Department>Payroll</Department>
+    <Manager>96</Manager>
+    <Status>Late</Status>
+    <RemainingEffort>122</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>32</Id>
+    <Department>Public Relations</Department>
+    <Manager>11</Manager>
+    <Status>Late</Status>
+    <RemainingEffort>179</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>33</Id>
+    <Department>Advertising</Department>
+    <Manager>76</Manager>
+    <Status>NotStarted</Status>
+    <RemainingEffort>202</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>34</Id>
+    <Department>Customer Service</Department>
+    <Manager>87</Manager>
+    <Status>NotStarted</Status>
+    <RemainingEffort>81</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>35</Id>
+    <Department>Tech Support</Department>
+    <Manager>62</Manager>
+    <Status>NotStarted</Status>
+    <RemainingEffort>321</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>36</Id>
+    <Department>Human Resources</Department>
+    <Manager>78</Manager>
+    <Status>Done</Status>
+    <RemainingEffort>20</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>37</Id>
+    <Department>Sales and Marketing</Department>
+    <Manager>52</Manager>
+    <Status>Late</Status>
+    <RemainingEffort>0</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>38</Id>
+    <Department>Research and Development</Department>
+    <Manager>65</Manager>
+    <Status>InProgress</Status>
+    <RemainingEffort>282</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>39</Id>
+    <Department>Payroll</Department>
+    <Manager>66</Manager>
+    <Status>NotStarted</Status>
+    <RemainingEffort>235</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>40</Id>
+    <Department>Customer Relations</Department>
+    <Manager>65</Manager>
+    <Status>NotStarted</Status>
+    <RemainingEffort>243</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>41</Id>
+    <Department>Tech Support</Department>
+    <Manager>1</Manager>
+    <Status>NotStarted</Status>
+    <RemainingEffort>160</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>42</Id>
+    <Department>Sales and Marketing</Department>
+    <Manager>10</Manager>
+    <Status>Done</Status>
+    <RemainingEffort>67</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>43</Id>
+    <Department>Finances</Department>
+    <Manager>19</Manager>
+    <Status>NotStarted</Status>
+    <RemainingEffort>0</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>44</Id>
+    <Department>Customer Service</Department>
+    <Manager>60</Manager>
+    <Status>InProgress</Status>
+    <RemainingEffort>280</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>45</Id>
+    <Department>Human Resources</Department>
+    <Manager>29</Manager>
+    <Status>Blocked</Status>
+    <RemainingEffort>331</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>46</Id>
+    <Department>Customer Relations</Department>
+    <Manager>88</Manager>
+    <Status>Blocked</Status>
+    <RemainingEffort>75</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>47</Id>
+    <Department>Media Relations</Department>
+    <Manager>63</Manager>
+    <Status>Blocked</Status>
+    <RemainingEffort>120</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>48</Id>
+    <Department>Advertising</Department>
+    <Manager>59</Manager>
+    <Status>NotStarted</Status>
+    <RemainingEffort>60</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>49</Id>
+    <Department>Accounting</Department>
+    <Manager>44</Manager>
+    <Status>InProgress</Status>
+    <RemainingEffort>111</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>50</Id>
+    <Department>Public Relations</Department>
+    <Manager>81</Manager>
+    <Status>InProgress</Status>
+    <RemainingEffort>25</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>51</Id>
+    <Department>Quality Assurance</Department>
+    <Manager>84</Manager>
+    <Status>InProgress</Status>
+    <RemainingEffort>363</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>52</Id>
+    <Department>Sales and Marketing</Department>
+    <Manager>21</Manager>
+    <Status>InProgress</Status>
+    <RemainingEffort>125</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>53</Id>
+    <Department>Legal Department</Department>
+    <Manager>99</Manager>
+    <Status>NotStarted</Status>
+    <RemainingEffort>270</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>54</Id>
+    <Department>Customer Relations</Department>
+    <Manager>17</Manager>
+    <Status>Blocked</Status>
+    <RemainingEffort>339</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>55</Id>
+    <Department>Asset Management</Department>
+    <Manager>74</Manager>
+    <Status>Late</Status>
+    <RemainingEffort>166</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>56</Id>
+    <Department>Legal Department</Department>
+    <Manager>99</Manager>
+    <Status>NotStarted</Status>
+    <RemainingEffort>139</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>57</Id>
+    <Department>Human Resources</Department>
+    <Manager>43</Manager>
+    <Status>Done</Status>
+    <RemainingEffort>0</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>58</Id>
+    <Department>Quality Assurance</Department>
+    <Manager>57</Manager>
+    <Status>Late</Status>
+    <RemainingEffort>360</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>59</Id>
+    <Department>Customer Service</Department>
+    <Manager>20</Manager>
+    <Status>InProgress</Status>
+    <RemainingEffort>42</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>60</Id>
+    <Department>Public Relations</Department>
+    <Manager>77</Manager>
+    <Status>NotStarted</Status>
+    <RemainingEffort>175</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>61</Id>
+    <Department>Quality Assurance</Department>
+    <Manager>53</Manager>
+    <Status>Done</Status>
+    <RemainingEffort>0</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>62</Id>
+    <Department>Human Resources</Department>
+    <Manager>49</Manager>
+    <Status>InProgress</Status>
+    <RemainingEffort>355</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>63</Id>
+    <Department>Accounting</Department>
+    <Manager>45</Manager>
+    <Status>NotStarted</Status>
+    <RemainingEffort>346</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>64</Id>
+    <Department>Quality Assurance</Department>
+    <Manager>46</Manager>
+    <Status>Late</Status>
+    <RemainingEffort>30</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>65</Id>
+    <Department>Payroll</Department>
+    <Manager>53</Manager>
+    <Status>InProgress</Status>
+    <RemainingEffort>124</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>66</Id>
+    <Department>Customer Service</Department>
+    <Manager>12</Manager>
+    <Status>Done</Status>
+    <RemainingEffort>0</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>67</Id>
+    <Department>Payroll</Department>
+    <Manager>59</Manager>
+    <Status>InProgress</Status>
+    <RemainingEffort>51</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>68</Id>
+    <Department>Tech Support</Department>
+    <Manager>48</Manager>
+    <Status>NotStarted</Status>
+    <RemainingEffort>327</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>69</Id>
+    <Department>Tech Support</Department>
+    <Manager>83</Manager>
+    <Status>NotStarted</Status>
+    <RemainingEffort>119</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>70</Id>
+    <Department>Research and Development</Department>
+    <Manager>90</Manager>
+    <Status>InProgress</Status>
+    <RemainingEffort>61</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>71</Id>
+    <Department>Tech Support</Department>
+    <Manager>34</Manager>
+    <Status>Done</Status>
+    <RemainingEffort>0</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>72</Id>
+    <Department>Research and Development</Department>
+    <Manager>53</Manager>
+    <Status>InProgress</Status>
+    <RemainingEffort>197</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>73</Id>
+    <Department>Human Resources</Department>
+    <Manager>94</Manager>
+    <Status>Done</Status>
+    <RemainingEffort>0</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>74</Id>
+    <Department>Payroll</Department>
+    <Manager>94</Manager>
+    <Status>NotStarted</Status>
+    <RemainingEffort>251</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>75</Id>
+    <Department>Finances</Department>
+    <Manager>89</Manager>
+    <Status>Late</Status>
+    <RemainingEffort>357</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>76</Id>
+    <Department>Customer Service</Department>
+    <Manager>22</Manager>
+    <Status>Done</Status>
+    <RemainingEffort>0</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>77</Id>
+    <Department>Payroll</Department>
+    <Manager>23</Manager>
+    <Status>Done</Status>
+    <RemainingEffort>72</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>78</Id>
+    <Department>Finances</Department>
+    <Manager>31</Manager>
+    <Status>Done</Status>
+    <RemainingEffort>0</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>79</Id>
+    <Department>Asset Management</Department>
+    <Manager>90</Manager>
+    <Status>InProgress</Status>
+    <RemainingEffort>273</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>80</Id>
+    <Department>Customer Relations</Department>
+    <Manager>53</Manager>
+    <Status>InProgress</Status>
+    <RemainingEffort>70</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>81</Id>
+    <Department>Research and Development</Department>
+    <Manager>77</Manager>
+    <Status>NotStarted</Status>
+    <RemainingEffort>159</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>82</Id>
+    <Department>Media Relations</Department>
+    <Manager>10</Manager>
+    <Status>NotStarted</Status>
+    <RemainingEffort>244</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>83</Id>
+    <Department>Advertising</Department>
+    <Manager>50</Manager>
+    <Status>Late</Status>
+    <RemainingEffort>170</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>84</Id>
+    <Department>Advertising</Department>
+    <Manager>97</Manager>
+    <Status>Done</Status>
+    <RemainingEffort>0</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>85</Id>
+    <Department>Payroll</Department>
+    <Manager>38</Manager>
+    <Status>InProgress</Status>
+    <RemainingEffort>299</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>86</Id>
+    <Department>Tech Support</Department>
+    <Manager>77</Manager>
+    <Status>NotStarted</Status>
+    <RemainingEffort>119</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>87</Id>
+    <Department>Asset Management</Department>
+    <Manager>85</Manager>
+    <Status>NotStarted</Status>
+    <RemainingEffort>145</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>88</Id>
+    <Department>Human Resources</Department>
+    <Manager>43</Manager>
+    <Status>NotStarted</Status>
+    <RemainingEffort>211</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>89</Id>
+    <Department>Customer Relations</Department>
+    <Manager>3</Manager>
+    <Status>NotStarted</Status>
+    <RemainingEffort>179</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>90</Id>
+    <Department>Customer Relations</Department>
+    <Manager>32</Manager>
+    <Status>InProgress</Status>
+    <RemainingEffort>177</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>91</Id>
+    <Department>Legal Department</Department>
+    <Manager>15</Manager>
+    <Status>InProgress</Status>
+    <RemainingEffort>235</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>92</Id>
+    <Department>Research and Development</Department>
+    <Manager>55</Manager>
+    <Status>Late</Status>
+    <RemainingEffort>205</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>93</Id>
+    <Department>Customer Service</Department>
+    <Manager>40</Manager>
+    <Status>Late</Status>
+    <RemainingEffort>20</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>94</Id>
+    <Department>Public Relations</Department>
+    <Manager>2</Manager>
+    <Status>Done</Status>
+    <RemainingEffort>0</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>95</Id>
+    <Department>Customer Relations</Department>
+    <Manager>51</Manager>
+    <Status>Done</Status>
+    <RemainingEffort>0</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>96</Id>
+    <Department>Media Relations</Department>
+    <Manager>47</Manager>
+    <Status>Done</Status>
+    <RemainingEffort>0</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>97</Id>
+    <Department>Legal Department</Department>
+    <Manager>78</Manager>
+    <Status>Done</Status>
+    <RemainingEffort>0</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>98</Id>
+    <Department>Legal Department</Department>
+    <Manager>11</Manager>
+    <Status>NotStarted</Status>
+    <RemainingEffort>346</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>99</Id>
+    <Department>Payroll</Department>
+    <Manager>27</Manager>
+    <Status>NotStarted</Status>
+    <RemainingEffort>313</RemainingEffort>
+  </Project>
+  <Project>
+    <Id>100</Id>
+    <Department>Human Resources</Department>
+    <Manager>82</Manager>
+    <Status>NotStarted</Status>
+    <RemainingEffort>56</RemainingEffort>
+  </Project>-->
+  </Projects>

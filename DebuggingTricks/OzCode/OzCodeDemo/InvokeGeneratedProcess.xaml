@@ -1,0 +1,12 @@
+﻿<Window x:Class="OzCodeDemo.InvokeGeneratedProcess"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Invoke Generated Process" Height="300" Width="300">
+    <StackPanel Orientation="Vertical">
+        <StackPanel Orientation="Horizontal">
+            <TextBlock>Say:</TextBlock>
+            <TextBox x:Name="HelloText">Hello OzCode!!!</TextBox>
+        </StackPanel>
+        <Button Click="StartNewProcess">Start New Process</Button>
+    </StackPanel>
+</Window>

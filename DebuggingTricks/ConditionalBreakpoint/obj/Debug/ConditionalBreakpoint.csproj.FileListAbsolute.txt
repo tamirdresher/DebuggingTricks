@@ -1,0 +1,8 @@
+C:\Users\Tamir\Source\Repos\DebuggingTricks\DebuggingTricks\ConditionalBreakpoint\bin\Debug\ConditionalBreakpoint.exe.config
+C:\Users\Tamir\Source\Repos\DebuggingTricks\DebuggingTricks\ConditionalBreakpoint\bin\Debug\ConditionalBreakpoint.exe
+C:\Users\Tamir\Source\Repos\DebuggingTricks\DebuggingTricks\ConditionalBreakpoint\bin\Debug\ConditionalBreakpoint.pdb
+C:\Users\Tamir\Source\Repos\DebuggingTricks\DebuggingTricks\ConditionalBreakpoint\bin\Debug\Common.dll
+C:\Users\Tamir\Source\Repos\DebuggingTricks\DebuggingTricks\ConditionalBreakpoint\bin\Debug\Common.pdb
+C:\Users\Tamir\Source\Repos\DebuggingTricks\DebuggingTricks\ConditionalBreakpoint\obj\Debug\ConditionalBreakpoint.csprojResolveAssemblyReference.cache
+C:\Users\Tamir\Source\Repos\DebuggingTricks\DebuggingTricks\ConditionalBreakpoint\obj\Debug\ConditionalBreakpoint.exe
+C:\Users\Tamir\Source\Repos\DebuggingTricks\DebuggingTricks\ConditionalBreakpoint\obj\Debug\ConditionalBreakpoint.pdb

@@ -1,0 +1,3 @@
+C:\Users\Tamir\Source\Repos\DebuggingTricks\DebuggingTricks\ConsoleApplication\bin\Debug\ConsoleApplication.exe.config
+C:\Users\Tamir\Source\Repos\DebuggingTricks\DebuggingTricks\ConsoleApplication\obj\Debug\ConsoleApplication.exe
+C:\Users\Tamir\Source\Repos\DebuggingTricks\DebuggingTricks\ConsoleApplication\obj\Debug\ConsoleApplication.pdb

@@ -1,0 +1,8 @@
+C:\Users\Tamir\Source\Repos\DebuggingTricks\DebuggingTricks\DataBreakpoint\bin\Debug\DataBreakpoint.exe.config
+C:\Users\Tamir\Source\Repos\DebuggingTricks\DebuggingTricks\DataBreakpoint\obj\Debug\DataBreakpoint.csprojResolveAssemblyReference.cache
+C:\Users\Tamir\Source\Repos\DebuggingTricks\DebuggingTricks\DataBreakpoint\bin\Debug\DataBreakpoint.exe
+C:\Users\Tamir\Source\Repos\DebuggingTricks\DebuggingTricks\DataBreakpoint\bin\Debug\DataBreakpoint.pdb
+C:\Users\Tamir\Source\Repos\DebuggingTricks\DebuggingTricks\DataBreakpoint\bin\Debug\Common.dll
+C:\Users\Tamir\Source\Repos\DebuggingTricks\DebuggingTricks\DataBreakpoint\bin\Debug\Common.pdb
+C:\Users\Tamir\Source\Repos\DebuggingTricks\DebuggingTricks\DataBreakpoint\obj\Debug\DataBreakpoint.exe
+C:\Users\Tamir\Source\Repos\DebuggingTricks\DebuggingTricks\DataBreakpoint\obj\Debug\DataBreakpoint.pdb

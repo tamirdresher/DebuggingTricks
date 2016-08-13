@@ -1,0 +1,133 @@
+﻿<Window x:Class="OzCodeDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="OzCode Demo" ResizeMode="CanMinimize" SizeToContent="WidthAndHeight" Icon="Resources\ozcode.ico">
+    <Grid>
+        <Grid.Resources>
+            <Style TargetType="{x:Type Image}">
+                <Setter Property="Height" Value="32"/>
+                <Setter Property="Width" Value="32"/>
+                <Setter Property="Stretch" Value="Uniform"/>
+                <Setter Property="Margin" Value="5"/>
+            </Style>
+            <Style TargetType="{x:Type Button}">
+                <Setter Property="Width" Value="200" />
+                <Setter Property="Height" Value="128" />
+            </Style>
+        </Grid.Resources>
+        <UniformGrid TextElement.FontSize="20" ButtonBase.Click="ButtonClick" Columns="4" Rows="5">
+            <UniformGrid.Resources>
+                <Style TargetType="TextBlock">
+                    <Setter Property="Margin" Value="0,10" />
+                </Style>
+                <Style TargetType="Button">
+                    <Setter Property="Margin" Value="4" />
+                    <Setter Property="Padding" Value="5" />
+                </Style>
+            </UniformGrid.Resources>
+            <Button x:Name="Simplify"   >
+                <StackPanel>
+                    <TextBlock Text="Simplify" />
+                    <Image Source="Resources\simplify.png" />
+                </StackPanel>
+            </Button>
+            <Button x:Name="Search"   >
+                <StackPanel>
+                    <TextBlock Text="Search" />
+                    <Image Source="Resources\search.png" />
+                </StackPanel>
+            </Button>
+            <Button x:Name="Compare"   >
+                <StackPanel>
+                    <TextBlock Text="Compare" />
+                    <Image Source="Resources\compare.png" />
+                </StackPanel>
+            </Button>
+            <Button x:Name="Foresee"   >
+                <StackPanel>
+                    <TextBlock Text="Foresee" />
+                    <Image Source="Resources\foresee.png" />
+                </StackPanel>
+            </Button>
+            <Button x:Name="Reveal"   >
+                <StackPanel>
+                    <TextBlock Text="Reveal" />
+                    <Image Source="Resources\reveal.png" />
+                </StackPanel>
+            </Button>
+            <Button x:Name="FilterCollections"    >
+                <StackPanel>
+                    <TextBlock Text="Filter Collections" />
+                    <Image Source="Resources\filter.png" />
+                </StackPanel>
+            </Button>
+            <Button x:Name="CustomExpression"   >
+                <StackPanel>
+                    <TextBlock Text="Custom Expressions" />
+                    <Image Source="Resources\custom.png" />
+                </StackPanel>
+            </Button>
+            
+            <Button x:Name="AttachToProcess"   >
+                <StackPanel>
+                    <TextBlock Text="QuickAttach" />
+                    <Image Source="Resources\quick_attach.png" />
+                </StackPanel>
+            </Button>
+            <Button x:Name="QuickActions"   >
+                <StackPanel>
+                    <TextBlock Text="QuickActions" />
+                    <Image Source="Resources\quick-actions.png" />
+                </StackPanel>
+            </Button>
+            <Button x:Name="ExceptionTrail"   >
+                <StackPanel>
+                    <TextBlock Text="Exception Trail" />
+                    <Image Source="Resources\exceptions-trail.png" />
+                </StackPanel>
+            </Button>
+            <Button x:Name="ShowAllInstances"   >
+                <StackPanel>
+                    <TextBlock Text="Show All Instances" />
+                    <Image Source="Resources\show-instances.png" />
+                </StackPanel>
+            </Button>
+            <Button x:Name="EnhancedTrace"   >
+                <StackPanel>
+                    <TextBlock Text="Trace" />
+                    <Image Source="Resources\trace.png" />
+                </StackPanel>
+            </Button>
+            <Button x:Name="SetterBreakpoints"   >
+                <StackPanel>
+                    <TextBlock Text="Setter Breakpoints" />
+                    <Image Source="Resources\breakpoint_set.png" />
+                </StackPanel>
+            </Button>
+            <Button x:Name="ExceptionHUD"   >
+                <StackPanel>
+                    <TextBlock Text="Exceptions HUD" />
+                    <Image Source="Resources\debug.png" />
+                </StackPanel>
+            </Button>
+            <Button x:Name="Predict"   >
+                <StackPanel>
+                    <TextBlock Text="Predict" />
+                    <Image Source="Resources\eye_scan.png" />
+                </StackPanel>
+            </Button>
+            <Button x:Name="LINQ"   >
+                <StackPanel>
+                    <TextBlock Text="LINQ" />
+                    <Image Source="Resources\lambda.png" Width="39" Height="39" />
+                </StackPanel>
+            </Button>
+            <Button x:Name="ObjectID">
+                <StackPanel>
+                    <TextBlock Text="Object ID" />
+                    <TextBlock Text="ID" FontWeight="Bold" TextAlignment="Center"/>
+                </StackPanel>
+            </Button>
+        </UniformGrid>
+    </Grid>
+</Window>
