@@ -2,7 +2,7 @@
 
 namespace Common.Students
 {
-    class StudentRepository
+    public class StudentRepository
     {
         public IEnumerable<Student> GetStudents()
         {

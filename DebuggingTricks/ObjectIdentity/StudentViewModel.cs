@@ -1,8 +1,8 @@
 ﻿using System;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
-using OzCodeDemo.Annotations;
-using OzCodeDemo.ClassManagment;
+using Common.Students;
+
 
 namespace OzCodeDemo.ObjectId
 {
@@ -93,7 +93,6 @@ namespace OzCodeDemo.ObjectId
 
         public event PropertyChangedEventHandler PropertyChanged;
 
-        [NotifyPropertyChangedInvocator]
         protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));

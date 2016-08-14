@@ -1,5 +1,0 @@
-C:\Users\Tamir\Source\Repos\DebuggingTricks\DebuggingTricks\Common\bin\Debug\Common.dll
-C:\Users\Tamir\Source\Repos\DebuggingTricks\DebuggingTricks\Common\bin\Debug\Common.pdb
-C:\Users\Tamir\Source\Repos\DebuggingTricks\DebuggingTricks\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
-C:\Users\Tamir\Source\Repos\DebuggingTricks\DebuggingTricks\Common\obj\Debug\Common.dll
-C:\Users\Tamir\Source\Repos\DebuggingTricks\DebuggingTricks\Common\obj\Debug\Common.pdb
