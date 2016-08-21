@@ -42,17 +42,17 @@ namespace OzCodeDemo.ObjectId
 
         private void SetVip(IEnumerable<StudentViewModel> students)
         {
-            foreach (var student in students)
+            foreach (var studentVM in students)
             {
-                student.IsVip = student.Name.Contains("Bart");
+                studentVM.IsVip = studentVM.Student.Name.Contains("Bart");
             }
         }
 
         private void OnCalculateGrades(object sender, RoutedEventArgs e)
         {
-            foreach (var student in Students)
+            foreach (var studentVM in Students)
             {
-                student.Grade = student.IsVip ? 100 : 85;
+                studentVM.Student.Grade = studentVM.IsVip ? 100 : 85;
             }
         }
 
