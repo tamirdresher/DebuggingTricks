@@ -8,8 +8,15 @@ namespace ABC
 {
     class Program
     {
+        private static char letter = 'A';
+
+        static char Next()
+        {
+            return letter++;
+        }
         static void Main(string[] args)
         {
+            string theAlphabet = "the alphabet is: " + Next() + Next() + Next();
         }
     }
 }
