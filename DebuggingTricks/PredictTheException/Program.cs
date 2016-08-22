@@ -47,10 +47,10 @@ namespace PredictTheException
         {
             var customers = CustomersRepository.LoadCustomersFromDb();
 
-            customers[5].Gender = Gender.Male;
-            customers[5].CCType = "MasterCard";
-            customers[5].Address.Country = "UK";
-            customers[5].EmailAddress = null;
+            customers[2].Gender = Gender.Female;
+            customers[2].CCType = "MasterCard";
+            customers[2].Address = null;
+            customers[2].EmailAddress = "xxx@yyy.com";
 
             return customers;
         }
@@ -69,7 +69,7 @@ namespace PredictTheException
         }
         private static void SendThankYouLetter(Customer customer)
         {
-            if (customer.EmailAddress.Length > MaxEmailLength)
+            if (customer.EmailAddress?.Length > MaxEmailLength)
             {
                 SendThankYouLetterInternal(customer.EmailAddress);
             }
